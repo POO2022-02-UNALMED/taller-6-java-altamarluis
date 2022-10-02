@@ -14,7 +14,7 @@ public class Camion extends Vehiculo {
     private static int contador = 0;
         
     public Camion(String placa, String nombre, int precio, int peso, Fabricante f,int algo){
-        super(placa,2,80,nombre,precio,peso,"4x2",f);
+        super(placa,2,80,nombre,precio,peso,"4X2",f);
         ejes = algo;
         contador++;
     }
