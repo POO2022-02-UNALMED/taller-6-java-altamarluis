@@ -14,7 +14,7 @@ public class Camioneta extends Vehiculo {
     private static int contador = 0;
     
     public Camioneta(String placa, int puertas, String nombre, int precio, int peso, Fabricante f,boolean a){
-        super(placa,puertas,90,nombre,precio,peso,"4x4",f);
+        super(placa,puertas,90,nombre,precio,peso,"4X4",f);
         volco = a;
         contador++;
     }
